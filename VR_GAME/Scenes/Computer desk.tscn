@@ -3,7 +3,7 @@
 [ext_resource path="res://Computer desk v4.obj" type="ArrayMesh" id=1]
 
 [node name="Computer desk" type="Spatial"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -21.4752, 12.614, 16.3709 )
+transform = Transform( 1, 0, 0, 0, 0.54491, 0, 0, 0, 0.708524, -21.4752, 12.614, 16.3709 )
 
 [node name="Computer desk v4" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 22.6005, -12.7379, -21.3668 )
@@ -15,9 +15,3 @@ pixel_size = 0.5
 modulate = Color( 1, 0, 0, 1 )
 text = "Replay tutorial"
 uppercase = true
-
-[node name="Label3D2" type="Label3D" parent="."]
-transform = Transform( 6.7535e-06, -1.99405e-07, 0.00703388, 0.00719836, -5.67801e-06, 0.00694703, 0.00124608, 0.00125549, 0.00120766, 23.7816, -10.7461, -19.9744 )
-pixel_size = 128.0
-modulate = Color( 1, 0, 0, 1 )
-text = "Test"
