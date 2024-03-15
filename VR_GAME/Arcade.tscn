@@ -126,7 +126,6 @@ viewport_path = NodePath("MiniGames/Video Machine/Viewport")
 script = ExtResource( 1 )
 
 [node name="JukeBox" type="Spatial" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.53631, 0, 0 )
 script = ExtResource( 15 )
 
 [node name="Jukebox" type="MeshInstance" parent="JukeBox"]
@@ -158,7 +157,6 @@ unit_db = -36.815
 unit_size = 77.9
 
 [node name="World" type="Spatial" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.53631, 0, 0 )
 
 [node name="Lights" type="Spatial" parent="World"]
 
@@ -490,17 +488,12 @@ transform = Transform( 1, 0, 3.55271e-15, 0, 1, 0, 7.10543e-15, 0, 1, 185.252, 1
 shape = SubResource( 48 )
 
 [node name="FPController" parent="." instance=ExtResource( 3 )]
-<<<<<<< HEAD
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.95194, 0, -213.91 )
-=======
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.41563, 0, 0 )
->>>>>>> 30e561ef14c00c08e628c0f70dcb26a84ab7f510
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource( 39 )
 
 [node name="Teleport_Mesh" type="MeshInstance" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.53631, 0, 0 )
 visible = false
 mesh = SubResource( 21 )
 material/0 = SubResource( 22 )
@@ -515,7 +508,6 @@ volume_db = -10.0
 autoplay = true
 
 [node name="HelpButton" parent="." instance=ExtResource( 21 )]
-<<<<<<< HEAD
 transform = Transform( -0.238906, 0, 0.971043, 0, 1, 0, -0.971043, 0, -0.238906, 5.48808, 0.680878, -210.924 )
 
 [node name="HelpButton2" parent="." instance=ExtResource( 21 )]
@@ -528,24 +520,9 @@ text = "Just play this game to get a star!"
 
 [node name="HelpButton4" parent="." instance=ExtResource( 21 )]
 transform = Transform( 0.766895, 0, -1.28914, 0, 1.5, 0, 1.28914, 0, 0.766895, 4.072, 0.634444, -217.948 )
-=======
-transform = Transform( -0.238906, 0, 0.971043, 0, 1, 0, -0.971043, 0, -0.238906, 1.95177, 0.680878, 2.9868 )
-
-[node name="HelpButton2" parent="." instance=ExtResource( 21 )]
-transform = Transform( 0.965926, 0, -0.258819, 0, 1, 0, 0.258819, 0, 0.965926, -8.94374, 0.680878, -4.41871 )
-text = "Interact with evil Chad to fight him!"
-
-[node name="HelpButton3" parent="." instance=ExtResource( 21 )]
-transform = Transform( -0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, -0.707107, -6.95048, 0.680878, 1.77386 )
-text = "Just play this game to get a star!"
-
-[node name="HelpButton4" parent="." instance=ExtResource( 21 )]
-transform = Transform( 0.766895, 0, -1.28914, 0, 1.5, 0, 1.28914, 0, 0.766895, 0.535689, 0.634444, -4.0372 )
->>>>>>> 30e561ef14c00c08e628c0f70dcb26a84ab7f510
 text = "If you find any bugs throughout the game please email 0342870@schoolsnet.act.edu.au with your problem"
 
 [node name="MiniGames" type="Spatial" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -3.53631, 0, 0 )
 script = ExtResource( 20 )
 
 [node name="FlashLightGame" type="RigidBody" parent="MiniGames"]
@@ -571,7 +548,7 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.26183, -0.242366, -212.806 )
 transform = Transform( -4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -5.40226, 1.10959, -208.284 )
 
 [node name="Video Machine" type="StaticBody" parent="MiniGames"]
-transform = Transform( 0.866025, -4.37114e-08, 0.5, 3.82137e-15, -1, -8.74228e-08, 0.5, 7.57103e-08, -0.866025, -5.37077, 4.80492, 4.54469 )
+transform = Transform( 0.866025, -4.37114e-08, 0.5, 3.82137e-15, -1, -8.74228e-08, 0.5, 7.57103e-08, -0.866025, -5.29973, 4.80492, 4.51058 )
 
 [node name="Arcade_Machine" type="MeshInstance" parent="MiniGames/Video Machine"]
 transform = Transform( 1, 0, 0, 0, 1, -1.42109e-14, 0, -7.10543e-15, 1, -106.955, -1.62125e-05, 185.252 )
