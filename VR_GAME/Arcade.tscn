@@ -23,7 +23,7 @@
 [ext_resource path="res://_MyContent/Scenes/HelpButton.tscn" type="PackedScene" id=21]
 [ext_resource path="res://_MyContent/Images/Ticket_Counter.png" type="Texture" id=22]
 [ext_resource path="res://_MyContent/Meshes/Char/Chad_Ghost_Evil.obj" type="ArrayMesh" id=23]
-[ext_resource path="res://Room.obj" type="ArrayMesh" id=24]
+[ext_resource path="res://Room.dae" type="PackedScene" id=24]
 
 [sub_resource type="SpatialMaterial" id=47]
 albedo_color = Color( 0.168627, 0.168627, 0.168627, 1 )
@@ -576,6 +576,5 @@ transform = Transform( -0.244855, 3.55271e-15, 2.98023e-08, 2.57572e-14, 0.25842
 opacity = 0.27
 texture = SubResource( 52 )
 
-[node name="Room" type="MeshInstance" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.157025, -0.274421, 1.12455 )
-mesh = ExtResource( 24 )
+[node name="Room" parent="." instance=ExtResource( 24 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.112954, 0.0756605, 0.213346 )
