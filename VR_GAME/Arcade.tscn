@@ -1,4 +1,4 @@
-[gd_scene load_steps=48 format=2]
+[gd_scene load_steps=49 format=2]
 
 [ext_resource path="res://Game.gd" type="Script" id=1]
 [ext_resource path="res://_MyContent/Images/Arcade Floor Galaxy.jpg" type="Texture" id=2]
@@ -24,7 +24,8 @@
 [ext_resource path="res://_MyContent/Images/Ticket_Counter.png" type="Texture" id=22]
 [ext_resource path="res://_MyContent/Meshes/Char/Chad_Ghost_Evil.obj" type="ArrayMesh" id=23]
 [ext_resource path="res://Room.dae" type="PackedScene" id=24]
-[ext_resource path="res://Scenes/Computer desk.tscn" type="PackedScene" id=25]
+[ext_resource path="res://Computer desk v5.obj" type="ArrayMesh" id=25]
+[ext_resource path="res://Scenes/ProjectorBoard.obj" type="ArrayMesh" id=26]
 
 [sub_resource type="SpatialMaterial" id=47]
 albedo_color = Color( 0.168627, 0.168627, 0.168627, 1 )
@@ -576,5 +577,10 @@ texture = SubResource( 52 )
 [node name="Room" parent="." instance=ExtResource( 24 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.112954, 0.0756605, 0.213346 )
 
-[node name="Computer desk" parent="." instance=ExtResource( 25 )]
-transform = Transform( 0.609797, 0, 0, 0, 0.272159, 0, 0, 0, 0.421449, -15.5393, 3.86684, 5.61771 )
+[node name="Computer desk v5" type="MeshInstance" parent="."]
+transform = Transform( 0.516714, 0, 0, 0, 0.410253, 0, 0, 0, 0.548929, 1.24407, 0.174426, 0.3655 )
+mesh = ExtResource( 25 )
+
+[node name="ProjectorBoard" type="MeshInstance" parent="."]
+transform = Transform( -0.00165801, 0, -0.999999, 0, 0.5614, 0, 0.76884, 0, -0.00127474, 3.10137, 0.500577, 0.243525 )
+mesh = ExtResource( 26 )
