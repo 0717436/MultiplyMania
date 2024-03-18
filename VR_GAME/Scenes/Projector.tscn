@@ -1,9 +1,11 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://Scenes/ProjectorBoard.obj" type="ArrayMesh" id=1]
+[ext_resource path="res://Scenes/Projector.gd" type="Script" id=2]
 
 [node name="Spatial" type="Spatial"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.344795, 4.4224, 12.2273 )
+script = ExtResource( 2 )
 
 [node name="ProjectorBoard" type="MeshInstance" parent="."]
 transform = Transform( 2.76979, 0, 0, 0, 2.1087, 0, 0, 0, 1.99553, -3.05387, -4.02162, -12.3661 )
