@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=2]
+
+[sub_resource type="CylinderMesh" id=1]
+
+[sub_resource type="CylinderShape" id=2]
+
+[node name="Spatial" type="Spatial"]
+
+[node name="RigidBody" type="RigidBody" parent="."]
+
+[node name="MeshInstance" type="MeshInstance" parent="RigidBody"]
+transform = Transform( 0.158382, 0, 0, 0, -0.039974, 0, 0, 0, 0.165518, 0, 0, 0 )
+mesh = SubResource( 1 )
+
+[node name="CollisionShape" type="CollisionShape" parent="RigidBody"]
+transform = Transform( 0.190165, 0, 0, 0, 0.0487022, 0, 0, 0, 0.190455, 0, 0, 0 )
+shape = SubResource( 2 )
