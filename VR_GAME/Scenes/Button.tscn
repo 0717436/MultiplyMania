@@ -1,12 +1,17 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Scenes/RigidBody.gd" type="Script" id=1]
+[ext_resource path="res://Scenes/Button.gd" type="Script" id=2]
 
 [sub_resource type="CylinderMesh" id=1]
 
 [sub_resource type="CylinderShape" id=2]
 
 [node name="Spatial" type="Spatial"]
+script = ExtResource( 2 )
 
 [node name="RigidBody" type="RigidBody" parent="."]
+script = ExtResource( 1 )
 
 [node name="MeshInstance" type="MeshInstance" parent="RigidBody"]
 transform = Transform( 0.158382, 0, 0, 0, -0.039974, 0, 0, 0, 0.165518, 0, 0, 0 )
