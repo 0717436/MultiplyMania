@@ -1,5 +1,6 @@
 extends Spatial
 
+var zero = 0
 var one = 1
 var two = 2
 var three = 3
@@ -9,13 +10,11 @@ var six = 6
 var seven = 7
 var eight = 8
 var nine = 9
-var ten = 10
-var eleven = 11
-var twelve = 12
 
-var result = six * seven
+onready var label = get_node("Label3D")
+
 
 func _ready():
-	print("The result of the multiplication is: ", result)
-
+	# adds number inputted from VR keyboard
+	label.text = str(int(label.text) * 10 + zero)
 
