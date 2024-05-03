@@ -17,3 +17,5 @@ var result = six * seven
 
 func _ready():
 	print("The result of the multiplication is: ", result)
+
+
