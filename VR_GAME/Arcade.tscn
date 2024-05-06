@@ -25,7 +25,7 @@
 [ext_resource path="res://_MyContent/Meshes/Char/Chad_Ghost_Evil.obj" type="ArrayMesh" id=23]
 [ext_resource path="res://Room.dae" type="PackedScene" id=24]
 [ext_resource path="res://Computer desk v5.obj" type="ArrayMesh" id=25]
-[ext_resource path="res://Scenes/ProjectorBoard.obj" type="ArrayMesh" id=26]
+[ext_resource path="res://Scenes/Projector.tscn" type="PackedScene" id=26]
 [ext_resource path="res://Buttons/4 key.tscn" type="PackedScene" id=27]
 [ext_resource path="res://Buttons/5 key.tscn" type="PackedScene" id=28]
 [ext_resource path="res://Buttons/6 key.tscn" type="PackedScene" id=29]
@@ -576,6 +576,5 @@ transform = Transform( 1.408, 0, 0, 0, 2.695, 0, 0, 0, 1.43, -0.558364, 1.974, -
 [node name="delete" parent="Computer desk v5" instance=ExtResource( 34 )]
 transform = Transform( 1.408, 0, 0, 0, 2.695, 0, 0, 0, 1.43, 0.357486, 1.974, -2.33854 )
 
-[node name="ProjectorBoard" type="MeshInstance" parent="."]
-transform = Transform( -0.00165801, 0, -0.999999, 0, 0.5614, 0, 0.76884, 0, -0.00127474, 3.10137, 0.500577, 0.243525 )
-mesh = ExtResource( 26 )
+[node name="Projector" parent="." instance=ExtResource( 26 )]
+transform = Transform( -1.52275e-08, 0, -0.425841, 0, 0.368623, 0, 0.348365, 0, -1.86141e-08, 2.51414, 1.77999, 1.36812 )

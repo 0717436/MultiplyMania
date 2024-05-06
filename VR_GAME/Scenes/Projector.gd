@@ -16,5 +16,5 @@ onready var label = get_node("Label3D")
 
 func _ready():
 	# adds number inputted from VR keyboard
-	label.text = str(int(label.text) * 10 + zero)
+	label.text = str(int(label.text) * 10 + nine)
 
