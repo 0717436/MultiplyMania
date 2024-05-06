@@ -1,4 +1,4 @@
-[gd_scene load_steps=51 format=2]
+[gd_scene load_steps=56 format=2]
 
 [ext_resource path="res://Game.gd" type="Script" id=1]
 [ext_resource path="res://_MyContent/Images/Arcade Floor Galaxy.jpg" type="Texture" id=2]
@@ -30,6 +30,11 @@
 [ext_resource path="res://Buttons/5 key.tscn" type="PackedScene" id=28]
 [ext_resource path="res://Buttons/6 key.tscn" type="PackedScene" id=29]
 [ext_resource path="res://Buttons/7 key.tscn" type="PackedScene" id=30]
+[ext_resource path="res://Buttons/0 key.tscn" type="PackedScene" id=31]
+[ext_resource path="res://Buttons/8 key.tscn" type="PackedScene" id=32]
+[ext_resource path="res://Buttons/9 key.tscn" type="PackedScene" id=33]
+[ext_resource path="res://Buttons/delete button.tscn" type="PackedScene" id=34]
+[ext_resource path="res://Buttons/Replay Tutorial.tscn" type="PackedScene" id=35]
 
 [sub_resource type="CubeMesh" id=1]
 
@@ -554,7 +559,22 @@ transform = Transform( 0.886865, -0.740935, 0, 0.317544, 2.06935, 0, 0, 0, 0.923
 transform = Transform( 0.886865, -0.740935, 0, 0.317544, 2.06935, 0, 0, 0, 0.923, 1.429, 2.088, 1.18482 )
 
 [node name="7" parent="Computer desk v5" instance=ExtResource( 30 )]
-transform = Transform( 0.942001, 0, 0, 0, 2.198, 0, 0, 0, 0.923, 0.578537, 1.95178, -1.53967 )
+transform = Transform( 0.942001, 0, 0, 0, 2.198, 0, 0, 0, 0.923, 0.578537, 1.95178, -1.53191 )
+
+[node name="8" parent="Computer desk v5" instance=ExtResource( 32 )]
+transform = Transform( 0.942002, 0, 0, 0, 2.198, 0, 0, 0, 0.923, 0.583947, 1.952, -0.891017 )
+
+[node name="9" parent="Computer desk v5" instance=ExtResource( 33 )]
+transform = Transform( 0.942, 0, 0, 0, 2.198, 0, 0, 0, 0.923, 0.585, 1.952, -0.127 )
+
+[node name="0" parent="Computer desk v5" instance=ExtResource( 31 )]
+transform = Transform( 0.942, 0, 0, 0, 2.198, 0, 0, 0, 0.923, 0.583, 1.952, 0.584 )
+
+[node name="replay tutorial" parent="Computer desk v5" instance=ExtResource( 35 )]
+transform = Transform( 1.408, 0, 0, 0, 2.695, 0, 0, 0, 1.43, -0.558364, 1.974, -2.32442 )
+
+[node name="delete" parent="Computer desk v5" instance=ExtResource( 34 )]
+transform = Transform( 1.408, 0, 0, 0, 2.695, 0, 0, 0, 1.43, 0.357486, 1.974, -2.33854 )
 
 [node name="ProjectorBoard" type="MeshInstance" parent="."]
 transform = Transform( -0.00165801, 0, -0.999999, 0, 0.5614, 0, 0.76884, 0, -0.00127474, 3.10137, 0.500577, 0.243525 )
