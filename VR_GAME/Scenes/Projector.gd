@@ -18,3 +18,7 @@ func _ready():
 	# adds number inputted from VR keyboard
 	label.text = str(int(label.text) * 10 + nine)
 
+
+
+func _on_9_NinthPressed():
+	label.text = str(int(label.text) * 10 + nine)

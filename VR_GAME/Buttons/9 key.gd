@@ -1,4 +1,8 @@
 extends Spatial
 
-func Press():
-	pass
+var NO_PICKUP
+
+signal NinthPressed
+
+func Press(NinthPressed):
+		NinthPressed.emit()
