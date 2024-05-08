@@ -10,3 +10,5 @@ var speed = 1
 var Mass = 1
 
 var pressing_trigger = "No"
+
+signal ControllerTouch
