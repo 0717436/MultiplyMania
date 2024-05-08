@@ -4,5 +4,5 @@ var NO_PICKUP
 
 signal NinthPressed
 
-func Press(NinthPressed):
+func interact(NinthPressed):
 		NinthPressed.emit()
