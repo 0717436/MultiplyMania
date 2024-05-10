@@ -11,14 +11,13 @@ var seven = 7
 var eight = 8
 var nine = 9
 
-onready var label = get_node("Label3D")
-
+onready var label = get_node("Label3D").text
 
 func _ready():
-	# adds number inputted from VR keyboard
-	label.text = str(int(label.text) * 10 + nine)
+	pass
 
 
 
 func _on_9_NinthPressed():
-	label.text = str(int(label.text) * 10 + nine)
+	label = str(int(label)* 10 + nine)
+	print(9)
