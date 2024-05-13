@@ -11,7 +11,8 @@ var seven = 7
 var eight = 8
 var nine = 9
 
-onready var label = get_node("Label3D").text
+#onready var label = int(get_node("Label3D").text)
+
 
 func _ready():
 	pass
@@ -19,5 +20,6 @@ func _ready():
 
 
 func _on_9_NinthPressed():
-	label = str(int(label)* 10 + nine)
-	print(9)
+	var label = int($Label3D.text)
+	label = str(label * 10 + nine)
+	print(label)
