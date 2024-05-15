@@ -1,4 +1,8 @@
 extends Spatial
 
-func Press():
-	pass
+var NO_PICKUP
+
+signal FourPressed
+
+func _ready():
+	emit_signal("FourPressed")
