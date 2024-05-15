@@ -579,4 +579,13 @@ transform = Transform( 1.408, 0, 0, 0, 2.695, 0, 0, 0, 1.43, 0.357486, 1.974, -2
 [node name="Projector" parent="." instance=ExtResource( 26 )]
 transform = Transform( -1.52275e-08, 0, -0.425841, 0, 0.368623, 0, 0.348365, 0, -1.86141e-08, 2.51414, 1.77999, 1.36812 )
 
+[connection signal="OnePressed" from="Computer desk v5/1 key" to="Projector" method="_on_1_key_OnePressed"]
+[connection signal="TwoPressed" from="Computer desk v5/2" to="Projector" method="_on_2_TwoPressed"]
+[connection signal="ThreePressed" from="Computer desk v5/3" to="Projector" method="_on_3_ThreePressed"]
+[connection signal="FourPressed" from="Computer desk v5/4" to="Projector" method="_on_4_FourPressed"]
+[connection signal="FivePressed" from="Computer desk v5/5" to="Projector" method="_on_5_FivePressed"]
+[connection signal="SixPressed" from="Computer desk v5/6" to="Projector" method="_on_6_SixPressed"]
+[connection signal="SevenPressed" from="Computer desk v5/7" to="Projector" method="_on_7_SevenPressed"]
+[connection signal="EightPressed" from="Computer desk v5/8" to="Projector" method="_on_8_EightPressed"]
 [connection signal="NinthPressed" from="Computer desk v5/9" to="Projector" method="_on_9_NinthPressed"]
+[connection signal="ZeroPressed" from="Computer desk v5/0" to="Projector" method="_on_0_ZeroPressed"]
