@@ -1,6 +1,6 @@
 extends Spatial
 
-var NO_PICKUP
+
 
 signal NinthPressed
 
@@ -9,4 +9,4 @@ func _ready():
 
 
 func interact():
-	print("9")
+	print("....")

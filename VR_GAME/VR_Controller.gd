@@ -246,6 +246,7 @@ func button_pressed(button_index):
 				grab_raycast.force_raycast_update()
 				# Check if the raycast is colliding.
 				if (grab_raycast.is_colliding()):
+					print("raycast colliding")
 					# If what the raycast is colliding with is a RigidBody and it does not have
 					# a variable called NO_PICKUP, then we can pick it up
 					if grab_raycast.get_collider() is RigidBody and !("NO_PICKUP" in grab_raycast.get_collider()):

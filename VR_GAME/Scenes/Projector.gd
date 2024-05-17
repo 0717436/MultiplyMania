@@ -22,7 +22,14 @@ func _ready():
 func _on_9_NinthPressed():
 	var label = int($Label3D.text)
 	label = str(label * 10 + nine)
-	print(label)
+	print("Label "+ label)
+
+
+func getValue():
+	return $Label3D.text
+
+func setValue(newLabel):
+	$Label3D.text = newLabel
 
 
 func _on_0_ZeroPressed():

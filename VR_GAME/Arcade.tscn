@@ -587,5 +587,4 @@ transform = Transform( -1.52275e-08, 0, -0.425841, 0, 0.368623, 0, 0.348365, 0, 
 [connection signal="SixPressed" from="Computer desk v5/6" to="Projector" method="_on_6_SixPressed"]
 [connection signal="SevenPressed" from="Computer desk v5/7" to="Projector" method="_on_7_SevenPressed"]
 [connection signal="EightPressed" from="Computer desk v5/8" to="Projector" method="_on_8_EightPressed"]
-[connection signal="NinthPressed" from="Computer desk v5/9" to="Projector" method="_on_9_NinthPressed"]
 [connection signal="ZeroPressed" from="Computer desk v5/0" to="Projector" method="_on_0_ZeroPressed"]
